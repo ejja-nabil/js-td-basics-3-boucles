@@ -25,6 +25,23 @@ BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
 
+let userInput = '';
+let message = 'Tapez une lettre ou X pour sortir : ';
+
+while (userInput !== 'X') {
+    userInput = prompt(message);
+
+    if (userInput) {
+        console.log(`Vous avez entré : ${userInput}`);
+    } else {
+        console.log('Vous n\'avez rien entré.');
+    }
+}
+
+console.log('Vous avez quitté la boucle.');
+
+// Bonus
+console.log(`La chaîne complète saisie : ${userInput}`);
 
 
 

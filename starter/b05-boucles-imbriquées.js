@@ -22,3 +22,12 @@
   - Écrivez l'expression à afficher dans le console.log d'une manière alternative,
     en utilisant le concept de template littéral.
 */
+
+console.log("i   |  j   |  i * j");
+console.log("-------------------");
+
+for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= 5; j++) {
+        console.log(`${i}   |  ${j}   |  ${i * j}`);
+    }
+}

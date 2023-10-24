@@ -19,8 +19,29 @@ EXEMPLE 1 :
 - Affichez les nombres de 1 à 10
   - 1°) sans utiliser de boucle : écrivez toutes les instructions à la main, une par une
   - 2°) en utilisant la boucle FOR
+  /*1)
+console.log("1");
+console.log("2");
+console.log("3");
+console.log("4");
+console.log("5");
+console.log("6");
+console.log("7");
+console.log("8");
+console.log("9");
+console.log("10");*/
+
+//2)
+
+for (let i =1; i<=10; i++){
+    console.log(`${i}`);
+}
+/*
 - Écrivez la table d'évolution des variables
 */
+
+
+
 
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
 

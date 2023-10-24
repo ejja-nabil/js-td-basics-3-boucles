@@ -15,6 +15,32 @@ N.B. Faites-le de deux manières différentes :
 // Commencez par demander à l'utilisateur la table de multiplication souhaitée et le nombre de valeurs à afficher
 // Ensuite, utilisez une boucle FOR pour calculer et afficher les x premières valeurs de la table de multiplication
 
+
+let table = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+
+let valeurs = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+
+console.log(`Voici les ${valeurs} premières valeurs de la table de multiplication par ${table}:`);
+
+for (let i = 1; i <= valeurs; i++) {
+    let result = i * table;
+    console.log(`${i} * ${table} = ${result}`);
+}
+
+
+
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let table = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+let valeurs = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+
+console.log(`Voici les ${valeurs} premières valeurs de la table de multiplication par ${table}:`);
+
+let i = 1;
+
+while (i <= valeurs) {
+    let result = i * table;
+    console.log(`${i} * ${table} = ${result}`);
+    i++;
+}

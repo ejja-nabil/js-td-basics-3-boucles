@@ -22,4 +22,14 @@ CORRECTION :
 */
 
 
+for (let nombre = 1; nombre <= 5;) {
+    console.log(nombre);
+    nombre++;
+}
+
+
+for (let nombre = 1; nombre <= 5; nombre ++) {
+    console.log(nombre);
+}
+
 

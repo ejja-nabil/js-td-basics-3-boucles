@@ -20,3 +20,18 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 */
 
 
+let table = parseInt(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+
+if (!isNaN(table)) {
+    console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}:`);
+
+    let i = 1;
+
+    while (i <= 10) {
+        let result = i * table;
+        console.log(`${i} * ${table} = ${result}`);
+        i++;
+    }
+} else {
+    console.log("Veuillez entrer un nombre valide.");
+}
